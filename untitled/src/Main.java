@@ -19,8 +19,6 @@ public class Main {
         studentGroup.addStudent(student5);
         System.out.println("liczba studentow w grupie");
         System.out.println(studentGroup.students.length);
-        for(int i = 0; i < studentGroup.students.length; i++) {
-            System.out.println(studentGroup.students[i]);
-        }
+      
     }
 }
